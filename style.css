@@ -1,0 +1,112 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: "Gilroy-SemiBold", sans-serif;
+    color: #000;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    max-width: 1274px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 40px 0;
+    margin-bottom: 84px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlogo {
+}
+.menu {
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+    
+    margin-bottom: 11px;
+}
+.nav-link {
+    color: #f25822
+}
+.icon {
+    stroke-width: 1px;
+    stroke: #000;
+    
+}
+.main {
+    margin-bottom: 162px;
+}
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+.content {
+    max-width: 522px;
+    margin-bottom: 177px;
+}
+.content-title {
+    font-weight: 400;
+    font-size: 60px;
+    color: #000;
+    margin-bottom: 17px;
+}
+.content-subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    color: #888;
+    margin-bottom: 37px;
+    max-width: 466px;
+}
+.content-btn-box {
+    display: flex;
+    gap: 72px;
+    
+}
+.content-btn {
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+
+    border-radius: 50px;
+    background: #f25822;
+    padding: 15px 35px;
+    
+
+    cursor: pointer;
+   
+
+}
+.content-btn-video {
+    font-weight: 400px;
+    font-size: 15px;
+    color: #aaa;
+    border: none;
+    background: none;
+}
+.content-img {
+    width: 610px;
+    height: 372px;
+}
+.footer {
+    margin-bottom: 96px;
+}
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
